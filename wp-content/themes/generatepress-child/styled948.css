@@ -1,0 +1,76 @@
+/*
+ Theme Name:   GeneratePress Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     generatepress
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  generatepress-child
+*/
+
+.site-main{
+    margin-left:0;
+}
+
+.main-navigation, .main-navigation ul ul{
+     background:#8D007C !important;
+}
+
+#primary-menu{
+    background:#8D007C !important;
+}
+
+.site-info{
+    background: #FFF530 !important;
+    color: #000 !important;
+    border-top: 5px solid #000;
+}
+
+.entry-header{
+    background: #414141 !important;
+    border-bottom: 5px solid #FFF522;
+    color:#fff;
+    padding:5px 15px;
+}
+
+.generate-back-to-top {
+    font-size: 20px;
+    border-radius: 3px;
+    position: fixed;
+    bottom: 30px;
+    left: 30px; 
+    line-height: 40px;
+    width: 40px;
+    text-align: center;
+    z-index: 10;
+    transition: opacity 300ms ease-in-out;
+    outline:none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+            #jumbo{
+               padding: 20px 5px !important;
+            }
+            
+            h1{
+                    font-size: 25px !important;
+                }
+                
+                .flexslider .slides img {
+                    height: 250px !important;
+                }
+                
+                #section2 div.row .pt-5 .pb-5{
+                    background:green !important;
+                }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+} 
